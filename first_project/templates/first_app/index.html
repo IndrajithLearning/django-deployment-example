@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Page</title>
+    </head>
+    <body>
+        <h1>Hello, This is index.html</h1>
+        {% if acc_rec %}
+        {% for i in acc_rec %}
+            <p>{{ i.date }}</p>
+            {% endfor %}
+        {% endif %}
+    </body>
+</html>
